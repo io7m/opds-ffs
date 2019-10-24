@@ -1,0 +1,31 @@
+<entry xmlns="http://www.w3.org/2005/Atom"
+       xmlns:opds="http://opds-spec.org/2010/catalog">
+
+  <id>urn:uuid:897bf994-7d3c-49f7-b32b-f409bc7363cd</id>
+  <title>Indirect - ACSM</title>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+  <author>
+    <name>Someone</name>
+  </author>
+
+  <summary type="html">
+    An indirectly accessible book that delivers an invalid ACSM file.
+  </summary>
+
+  <link href="strawberries.png"
+        type="image/png"
+        rel="http://opds-spec.org/image"/>
+  <link href="strawberries_thumb.png"
+        type="image/png"
+        rel="http://opds-spec.org/image/thumbnail"/>
+
+  <link href="invalid.acsm"
+        rel="http://opds-spec.org/acquisition"
+        type="application/vnd.adobe.adept+xml">
+    <opds:indirectAcquisition type="application/epub+zip"/>
+    <opds:availability status="available"/>
+    <opds:holds total="0"/>
+    <opds:copies available="1"
+                 total="1"/>
+  </link>
+</entry>
